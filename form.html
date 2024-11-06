@@ -7,39 +7,41 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <h2>Membership Application Form</h2>
+    <h2><center>Membership Application Form</center></h2>
     <form>
-        <label for="name">ชื่อ - นามสกุล (ภาษาไทยและภาษาอังกฤษ):</label>
+        <label for="name">NAME-SURNAME:</label>
         <input type="text" id="name" name="name" required>
-        <label for="gender">เพศ:</label>
+        <label for="gender">GENDER:</label>
         <select id="gender" name="gender" required>
-            <option value="">เลือกเพศ</option>
-            <option value="male">ชาย</option>
-            <option value="female">หญิง</option>
-            <option value="other">อื่น ๆ</option>
+            <option value="">SELECT GENDER</option>
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+            <option value="other">OTHER</option>
         </select>
         
-        <label for="student-id">รหัสนักศึกษา:</label>
+        <label for="student-id">STUDENT-ID:</label>
         <input type="text" id="student-id" name="student-id" required>
 
-        <label for="faculty">คณะที่ศึกษา:</label>
+        <label for="faculty">FACULTY:</label>
         <input type="text" id="faculty" name="faculty" required>
 
         <label for="email-address">Email Address:</label>
         <input type="text" id="email-address" name="email-address" required>
 
-        <label for="dob">วันเดือนปีเกิด:</label>
+        <label for="dob">DOB:</label>
         <input type="text" id="dob" name="dob" required>
 
-        <label for="booktype">ประเภทหนังสือที่สนใจ:</label>
+        <label for="booktype">TYPES OF BOOKS OF INTEREST:</label>
         <input type="text" id="booktype" name="booktype" required>
 
-        <label for="news">ต้องการรับข่าวสารข้อมูลทางห้องสมุดทางอีเมลหรือไม่:</label>
+        <label for="news">RECEIVING INFORMATION VIA EMAIL:</label>
         <select id="news" name="news" required>
-            <option value="">เลือก</option>
-            <option value="Yes">ต้องการ</option>
-            <option value="No">ไม่ต้องการ</option>
+            <option value="">SELECT</option>
+            <option value="Yes">YES</option>
+            <option value="No">NO</option>
         </select>
+        <button type="submit">SUMMIT</button>
+    </form>
 
 </body>
 </html>
